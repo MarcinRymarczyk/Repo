@@ -1,16 +1,16 @@
 
 
-Projekt polegał na stworzeniu serwerów : PHP, APACHE, MySQL
+Zadanie polegało na stworzeniu serwerów : PHP, APACHE, MySQL
 
-Projekt trzeba w pierwszej kolejności zbudować następującą komendą:
+Jak zbudować projekt:
     sudo docker-compose build
 
-Następnie uruchamiamy za pomocą następującej komendy:
+Jak uruchomić:
     sudo docker-compose up
 
-Za pomocą następującej komendy jesteśmy w stanie sprawdzić działanie skryptu index.php :
+Sprawdzanie skryptu index.php :
     curl localhost:6666
 
-Następująca komenda jest komendą która wyświetli zawartość naszego pliku index.html:
+Wyświetlanie pliku index.html:
     curl localhost:6666/index.html
 
